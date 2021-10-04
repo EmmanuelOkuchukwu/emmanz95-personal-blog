@@ -25,7 +25,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           {posts.map((post) => (
-              <Post key={post.link} post={post} className={styles.card} />
+              <Post key={post.link} post={post} />
           ))}
         </div>
       </main>
