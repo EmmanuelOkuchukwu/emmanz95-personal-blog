@@ -117,6 +117,19 @@
   margin-left: 0.5rem;
 }
 
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: justify;
+  line-height: 1.9;
+}
+
+.greatTitle {
+  margin-top: 100px;
+}
+
+.articlePost {}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
